@@ -21,7 +21,7 @@ def plant(y, u):
 
 def find_ultimate_gain():
     """Naikkan Kp sampai sistem berosilasi stabil, return Ku & Pu"""
-    Ku = float(input("masukkan nilai Ku : "))
+    Ku = float(input("masukkan nilai Ku :"))
     Pu = float(input("masukkan nilai pu :"))
     setpoint = 1.0
 
